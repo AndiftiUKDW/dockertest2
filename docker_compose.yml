@@ -1,9 +1,11 @@
 services:
   Konseria:
-    image: andipyana/ftiukdw:2
+    image: php:apache
     container_name: konseria_71220822
     ports:
       - 80:80
+    volumes:
+      - ./progweb:/var/www/html
     networks:
       - mahasiswa
     env_file:
