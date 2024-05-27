@@ -1,0 +1,318 @@
+body{
+    background-color: #ECECEC;
+    margin: 0;
+}
+
+.BOX{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    margin: 0px;
+    padding: 0px;
+    width: 1920px;
+    height: 921px;
+    overflow: scroll;
+}
+
+
+header#atas{
+    background-color: #023E8A;
+    width: 100%;
+    height: 6.8%;
+    text-align: center;
+    color: white;
+}
+
+main#tengah{
+    background-color: white;
+    margin-left: 5%;
+    min-height: 100%;
+    width: 90%;
+    text-align: center;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+footer#bawah{
+    background-color: #023E8A;
+    width: 100%;
+    height: 5%;
+    text-align: center;
+    color: white;
+}
+
+footer#bawah p{
+    margin: 0;
+    padding: 13.5px;
+}
+
+
+#searchBtn:hover, #searchBtn:focus {
+    background-color: #333333;
+    border-radius:5px;
+}
+  
+#searchBtn {
+    background-color: transparent;
+    color: #6E6E6E;
+    font-size: 25px;
+    border: none;
+    cursor: pointer;
+}
+  
+#searchBtn:hover, #searchBtn:focus {
+    background-color: #333333;
+    border-radius:5px;
+}
+    
+#searchBtn {
+      background-color: transparent;
+      color: #6E6E6E;
+      font-size: 25px;
+      border: none;
+      cursor: pointer;
+}
+  
+div#Search{
+    position: absolute;
+    left: 28%;
+    top: 1.1%;
+    width: 50.8%;
+    margin: 0px;
+}
+  
+div#SearchInp input {
+    border: 2px solid black;
+    width:600px;
+    height: 1.5%;
+    padding-right: 200.8  px;
+    padding-left: 200.8  px;
+    font-size: 18.0px;
+    line-height: 1.5;
+    border-radius: 10px;
+    background-color: #F1F1F1;
+}
+
+div > hr{
+    position: absolute;
+    width: 74.9%;
+    left: 12.0%;
+    top: 3.4%;
+    height: 0px;
+}
+div.featured{
+    height: 25.0%;
+    width: 50%;
+    background-color: #ECECEC;
+    position: absolute;
+    top:4.7%;
+    left:25.2%;
+    overflow: hidden;
+    text-align: justify;
+}
+.featured_img{
+    height: 490px;
+}
+
+div.urutan{
+    position: absolute;
+    height: 64.9%;
+    width: 96.0%;
+    top: 32.4%;
+    left: 2.6%;
+}
+
+header a:link{
+    text-decoration: none;
+}
+
+a#Logout {
+    position: absolute;
+  top: 1.3%;
+  right: 11.3%;
+  color: black;
+  }
+  
+a#Login {
+  position: absolute;
+  top: 1.3%;
+  right: 11.3%;
+  color: black;
+}
+
+a#Sign_Up {
+  position: absolute;
+  top: 1.3%;
+  right: 5.3%;
+  color: black;
+}
+
+header a.button, a:visited.button{
+    border: 1px solid white;
+    border-radius: 13.5px;
+    background-color: white;
+    padding: 9.6px;
+    text-align: center;
+    padding-left: 20.0px;
+    padding-right: 20.0px;
+}
+header a:hover.button{
+    background-color: #EAEAEA;
+    border: 1px solid #EAEAEA;
+}
+header img{
+    position: absolute;
+    top: -0.9%;
+    left: 4.5%;
+    height: 84.0px;
+    width: 92.0px;
+}
+/* Bagian bawah ini buat event event box nya*/
+.event_isi{
+    background-color: white;
+    border: 1px solid black;
+    box-shadow: 8px 10px 5px 1px rgba(0,0,0,0.25);
+    width: 74.6%;
+    border-radius: 10px;
+    margin-top: 23.2px;
+    margin-right: 79.3px;
+    margin-bottom: 71.9px;
+    margin-left: 13.2%;
+    text-align: justify;
+    font-family: "Inter-SemiBold", sans-serif;
+    position: relative;
+    height: 173.6px;
+}
+.event_isi:hover{
+    background-color: #dbdbdb;  
+}
+.event_img{
+    position: absolute;
+    height: 150.1px;
+    /*! width: 352.5px; */
+    top:6.5%;
+    left: 2.0%;
+}
+.nama_event{
+    position: absolute;
+    top: 0.0%;
+    left:24.3%;
+    font-size: 20px;
+    font-weight: 600;
+}
+.nama_artis{
+    position: absolute;
+    top: 13.1%;
+    left:24.3%;
+    font-size: 20px;
+    font-weight: 400;
+}
+.alamat_event{
+    position: absolute;
+    top: 39.5%;
+    left:24.3%;
+    font-size: 21.6px;
+    font-weight: 400;
+}
+.tgl_event{
+    position: absolute;
+    top: -1.2%;
+    right:4.6%;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.event_isi .event_link{
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom: 0;
+}
+
+/* DropDown */
+ /* Dropdown Button */
+ .dropbtn {
+    background-color: transparent;
+    color: #6E6E6E;
+    padding: 8px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Dropdown button on hover & focus */
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: #333333;
+    border-radius:5px;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+  .show {display:block;} 
+  
+h1 {
+    margin: 0;
+    margin-bottom: 10px;
+    padding-top: 1%;
+    font-size: 50px;
+}
+hr {
+    width: 90.0%;
+    margin-bottom: 2.0%;
+}
+.order_date{
+    right: 4.6%;
+    bottom: -2.7%;
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+}
+.alamat_lengkap{
+  position: absolute;
+  top: 25.9%;
+  left: 24.3%;
+  font-size: 21.6px;
+  font-weight: 400;
+}
+.jumlah_ticket{
+  position: absolute;
+  top: 65.5%;
+  left: 24.3%;
+  font-size: 21.6px;
+  font-weight: 400;
+  font-weight: bold;
+}
+a#Histori{
+    position: absolute;
+    top: 1.3%;
+    right: 16.6%;
+    color: black;
+  }

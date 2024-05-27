@@ -1,0 +1,16 @@
+services:
+  Konseria:
+    image: andipyana/ftiukdw:2
+    container_name: konseria_71220822
+    ports:
+      - 80:80
+    networks:
+      - mahasiswa
+    env_file:
+      - stack.env
+
+
+networks:
+  mahasiswa:
+    external : true
+    name: dba_mahasiswa

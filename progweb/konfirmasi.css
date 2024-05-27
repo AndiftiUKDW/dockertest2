@@ -1,0 +1,130 @@
+body{
+    background-color:#ECECEC;
+    margin:0;
+}
+
+.BOX{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    margin: 0px;
+    padding: 0px;
+    width: 1920px;
+    height: 921px;
+    overflow: scroll;
+}
+
+
+header#atas{
+    background-color: #023E8A;
+    width: 100%;
+    height: 6.8%;
+    text-align: center;
+    color: white;
+}
+
+main#tengah{
+    background-color: white;
+    margin-left: 5%;
+    height: 100.3%;
+    width: 90%;
+    text-align: center;
+    position: relative;
+}
+
+footer#bawah{
+    background-color: #023E8A;
+    width: 100%;
+    height: 5%;
+    text-align: center;
+    color: white;
+}
+
+footer#bawah p{
+    
+    margin: 0;
+    padding: 13.5px;
+}
+
+
+
+header a:link{
+    text-decoration: none;
+}
+
+a#Login {
+  position: absolute;
+  top: 1.3%;
+  right: 11.3%;
+  color: black;
+}
+
+a#Logout {
+    position: absolute;
+  top: 1.3%;
+  right: 11.3%;
+  color: black;
+  }
+
+a#Sign_Up {
+  position: absolute;
+  top: 1.3%;
+  right: 5.3%;
+  color: black;
+}
+
+a.kembali{
+    text-decoration: none;
+    background-color: #0077B6;
+    font-size: 30px;
+    color: white;
+    padding: 9.6px;
+    border-radius: 13.5px;
+    padding-left: 20.0px;
+    padding-right: 20.0px;
+}
+a.kembali:hover{
+    background-color: #205674;
+}
+
+header a.button, a:visited.button{
+    border: 1px solid white;
+    border-radius: 13.5px;
+    background-color: white;
+    padding: 9.6px;
+    text-align: center;
+    padding-left: 20.0px;
+    padding-right: 20.0px;
+}
+header a:hover.button{
+    background-color: #EAEAEA;
+    border: 1px solid #EAEAEA;
+}
+header img{
+    position: absolute;
+    top: -0.9%;
+    left: 4.5%;
+    height: 84.0px;
+    width: 92.0px;
+}
+
+
+.THX{
+    position: absolute;
+    
+    left: 38.4%;
+    top: 1.8%;
+}
+.THX h1{
+    font-size: 50px;
+}
+.THX p{
+    font-size:30px;
+}
+
+a#Histori{
+    position: absolute;
+    top: 1.3%;
+    right: 16.6%;
+    color: black;
+  }

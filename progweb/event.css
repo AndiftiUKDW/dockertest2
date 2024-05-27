@@ -1,0 +1,315 @@
+body{
+    background-color:#ECECEC;
+    margin:0;
+}
+
+.BOX{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    margin: 0px;
+    padding: 0px;
+    width: 1920px;
+    height: 921px;
+    overflow: scroll;
+}
+
+
+header#atas{
+    background-color: #023E8A;
+    width: 100%;
+    height: 6.8%;
+    text-align: center;
+    color: white;
+}
+
+main#tengah{
+    background-color: white;
+    margin-left: 5%;
+    height: 230%;
+    width: 90%;
+    text-align: center;
+    position: relative;
+}
+
+footer#bawah{
+    background-color: #023E8A;
+    width: 100%;
+    height: 5%;
+    text-align: center;
+    color: white;
+}
+
+footer#bawah p{
+    
+    margin: 0;
+    padding: 13.5px;
+}
+
+
+
+header a:link{
+    text-decoration: none;
+}
+
+a#Login {
+  position: absolute;
+  top: 1.3%;
+  right: 11.3%;
+  color: black;
+}
+
+a#Logout {
+    position: absolute;
+  top: 1.3%;
+  right: 11.3%;
+  color: black;
+  }
+
+a#Sign_Up {
+  position: absolute;
+  top: 1.3%;
+  right: 5.3%;
+  color: black;
+}
+
+header a.button, a:visited.button{
+    border: 1px solid white;
+    border-radius: 13.5px;
+    background-color: white;
+    padding: 9.6px;
+    text-align: center;
+    padding-left: 20.0px;
+    padding-right: 20.0px;
+}
+header a:hover.button{
+    background-color: #EAEAEA;
+    border: 1px solid #EAEAEA;
+}
+header img{
+    position: absolute;
+    top: -0.9%;
+    left: 4.5%;
+    height: 84.0px;
+    width: 92.0px;
+}
+
+/* BreadCrumb */
+#BreadCrumb{
+    color:#0077B6;
+    font-size:32px;
+    position: absolute;
+    margin: 0;
+    text-decoration: none;
+    left: 5%;
+    
+}
+#BreadCrumb > a{
+    color:#0077B6;
+    margin: 0;
+    text-decoration: none;
+    
+}
+
+
+/*Info Konser*/
+#fotokonser {
+    position: absolute;
+    top:2%;
+    left:5%;
+    width: 1000px;
+    height: 563px;
+}
+
+#fotokonser > img {
+    width: 1000px;
+}
+
+/*Isi event box*/
+.event_info{
+    margin: 0;
+    padding: 20px;
+    position: absolute;
+    right: 6%;
+    top:2%;
+    background-color: white;
+    height: 24.6%;
+    width: 25%;
+    text-align: left;
+    border: 1px solid #A2A2A2;
+    box-shadow: 8px 10px 5px 1px rgba(0,0,0,0.25);
+    border-radius: 34px;
+    text-align: justify;
+}
+#judulevent{
+    margin: 0;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+}
+#lokasievent, #waktuevent, #tanggalevent, #Artist{
+    margin:10px;
+    font-size: 24px;
+}
+.fa-circle{
+    margin-right: 13.6px;
+}
+.penyelenggara{
+    height: 10%;
+    text-align: center;
+}
+img#pkenter{
+    position: relative;
+    left: 15%;
+}
+img#sozo{
+    position: relative;
+    left: 30%;
+}
+#namapenyelenggara{
+    font-variant: small-caps;
+    text-align: center;
+}
+.fa-clock-o{
+    margin-right: 4.8px;
+}
+.fa-calendar{
+    margin-right: 10px;
+}
+.material-icons{
+    margin-right: 3.2px;
+}
+
+p#diselenggarakan.penyelenggara{
+    margin-top:30.6px;
+    height: 29.2px;
+}
+/* middle isi*/
+
+.package{
+    margin: 660px                                                                                         ;
+    padding: 22.6px;
+    position: absolute;
+    left: 14.2%;
+    top:0%;
+    background-color: white;
+    width: 39.1%;
+    text-align: left;
+    border: 1px solid #A2A2A2;
+    box-shadow: 8px 10px 5px 1px rgba(0,0,0,0.25);
+    border-radius: 34px;
+    text-align: justify;
+    padding-bottom: 52.1px;
+}
+
+.italic{
+    font-style: italic;
+}
+
+.notice{
+color:#0077B6;
+font-weight: bold;
+}
+
+#judulpackage{
+    font-size: larger;
+    font-weight: bolder;
+}
+.isi_package{
+    border-bottom: 1px solid gray;
+    
+    padding-bottom: 10px;
+    position: relative;
+}
+.ACC{
+    position: absolute;
+    right: 39.0%;
+    margin-top: 10px;
+    background-color: #0077B6;
+    border-radius: 5.7px;
+    height: 29.5px;
+    width: 167.1px;
+    cursor: pointer;
+    color: aliceblue;
+    border: 1px solid #0077B6;
+    font-family: Times New Roman;
+    font-size: 18.1px;
+}
+.ACC:hover{
+    background-color:  #205674;
+}
+
+.sisa_tiket{
+    position:absolute;
+    bottom : 36.1%;
+    right:1.8%;
+    margin: 0;
+}
+
+.sisa_tiketz{
+    position:absolute;
+    bottom : 28.8%;
+    right:1.8%;
+    margin: 0;
+}
+
+.picker {
+    position: absolute;
+    right: 10px;
+    bottom: 25.2px;
+}
+.picker #ticket{
+    margin-left: 10px;
+}
+.fotoseater{
+    background-color: red;
+    height: 21.5%;
+    width: 46.7%;
+    text-align: justify;
+    
+    top: 31.0%;
+    left: 1.9%;
+    position: absolute;
+    overflow: hidden;
+}
+.fotoseater img{
+    position: absolute;
+    height: 118.5%;
+    
+    
+}
+
+.deskripsi{
+    position: absolute;
+    bottom:28.6%;
+    left: 10.7%;
+    width: 37.5%;
+    height: 17.3%;
+}
+.deskripsi p#isidesk{
+    text-align: justify;
+    text-indent: each-line 50px;
+}
+.syarat{
+    position: absolute;
+    bottom:13.8%;
+    right: 6.3%;
+    width: 42.7%;
+    height: 17.3%;
+}
+.syarat ol#sdank{
+    text-align: justify;
+}
+
+a#Histori{
+    position: absolute;
+    top: 1.3%;
+    right: 16.6%;
+    color: black;
+  }
+
+.peringatan{
+    position: absolute;
+    color:red;
+    right: 39.0%;
+}
